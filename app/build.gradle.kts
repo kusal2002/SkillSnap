@@ -48,6 +48,8 @@ dependencies {
 
     //chip navigation bar
     implementation("com.github.ismaeldivita:chip-navigation-bar:1.4.0")
+    implementation("com.github.bumptech.glide:glide:4.16.0")
+
 
 
 }
