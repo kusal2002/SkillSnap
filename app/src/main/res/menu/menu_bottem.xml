@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/home"
+        android:enabled="true"
+        android:icon="@drawable/menu_home"
+        android:title="@string/home"
+        app:cnb_backgroundColor="@color/white"
+        app:cnb_iconColor="@color/primary"
+        app:cnb_iconTintMode="src_in"
+        app:cnb_textColor="@color/secondary" />
+
+    <item
+        android:id="@+id/progress"
+        android:enabled="true"
+        android:icon="@drawable/menu_chart"
+        android:title="@string/progress"
+        app:cnb_backgroundColor="@color/white"
+        app:cnb_iconColor="@color/secondary"
+        app:cnb_iconTintMode="src_in"
+        app:cnb_textColor="@color/secondary" />
+
+    <item
+        android:id="@+id/community"
+        android:enabled="true"
+        android:icon="@drawable/menu_community"
+        android:title="@string/community"
+        app:cnb_backgroundColor="@color/white"
+        app:cnb_iconColor="@color/secondary"
+        app:cnb_iconTintMode="src_in"
+        app:cnb_textColor="@color/secondary" />
+
+    <item
+        android:id="@+id/profile"
+        android:enabled="true"
+        android:icon="@drawable/person_menu"
+        android:title="@string/profile"
+        app:cnb_backgroundColor="@color/white"
+        app:cnb_iconColor="@color/secondary"
+        app:cnb_iconTintMode="src_in"
+        app:cnb_textColor="@color/secondary" />
+
+
+
+
+</menu>
