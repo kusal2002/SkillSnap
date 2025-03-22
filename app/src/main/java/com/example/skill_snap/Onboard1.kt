@@ -22,7 +22,7 @@ class Onboard1 : AppCompatActivity() {
 
         val getStartedButton = findViewById<Button>(R.id.getstarted)
         getStartedButton.setOnClickListener{
-            val intent = Intent(this,MainActivity::class.java)
+            val intent = Intent(this,Onboard2::class.java)
             startActivity(intent)
         }
     }

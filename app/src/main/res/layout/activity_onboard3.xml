@@ -70,12 +70,12 @@
                 app:layout_constraintTop_toBottomOf="@+id/textView" />
 
             <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/next"
+                android:id="@+id/getstarted"
                 android:layout_width="350dp"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="124dp"
                 android:background="@drawable/btn"
-                android:text="Next"
+                android:text="Get Started"
                 android:textColor="@color/white"
                 android:textSize="20dp"
                 android:textStyle="bold"
@@ -83,19 +83,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent" />
 
-            <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/skip"
-                android:layout_width="350dp"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="64dp"
-                android:background="@drawable/btn_skip"
-                android:text="Skip"
-                android:textColor="@color/white"
-                android:textSize="20dp"
-                android:textStyle="bold"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent" />
+
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </LinearLayout>
