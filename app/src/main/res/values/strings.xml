@@ -7,5 +7,6 @@
     <string name="community">Community</string>
     <string name="profile">Profile</string>
     <string name="onboard1txt">Master Skills,One\nSnap at a Time</string>
-    <string name="onboard1sm">Unlock new abilites with short,\nfun lessons designed for your busy life.</string>
+    <string name="onboard1sm">Unlock new abilites with short,\nfun lessons designed for\nyour busy life.</string>
+    <string name="onboard3txt">Track every step, earn rewards,\n and become the master\nyou’re meant to be.</string>
 </resources>

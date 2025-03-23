@@ -20,11 +20,13 @@
 
             <ImageView
                 android:id="@+id/imageView"
-                android:layout_width="match_parent"
+                android:layout_width="250dp"
                 android:layout_height="300dp"
+                android:src="@drawable/ob2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                tools:srcCompat="@drawable/learningbro"
-                android:src="@drawable/learningbro"/>
+                tools:srcCompat="@drawable/ob2" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
         <androidx.constraintlayout.widget.ConstraintLayout
@@ -41,12 +43,12 @@
                 tools:srcCompat="@drawable/bottomcard_onboardscreen" />
 
             <TextView
-                android:id="@+id/textView"
+                android:id="@+id/textView3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:fontFamily="sans-serif-condensed-light"
-                android:text="@string/onboard1txt"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Pick Your Path"
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="40dp"
@@ -56,18 +58,19 @@
                 app:layout_constraintTop_toTopOf="@+id/imageView2" />
 
             <TextView
-                android:id="@+id/textView2"
+                android:id="@+id/textView4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="36dp"
                 android:fontFamily="sans-serif-light"
-                android:text="@string/onboard1sm"
+                android:text="Choose the skills you want to\nlearn, and we’ll build a plan just\nfor you."
                 android:textAlignment="center"
                 android:textSize="20dp"
                 android:textStyle="bold"
+                android:textColor="@color/black"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView" />
+                app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/next"
@@ -84,7 +87,7 @@
                 app:layout_constraintStart_toStartOf="parent" />
 
             <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/skip"
+                android:id="@+id/skip2"
                 android:layout_width="350dp"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="64dp"

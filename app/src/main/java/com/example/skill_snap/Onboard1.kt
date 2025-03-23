@@ -25,5 +25,11 @@ class Onboard1 : AppCompatActivity() {
             val intent = Intent(this,Onboard2::class.java)
             startActivity(intent)
         }
+
+        val btnSkip = findViewById<Button>(R.id.skip)
+        btnSkip.setOnClickListener({
+            val intent2 = Intent(this,MainActivity::class.java)
+            startActivity(intent2)
+        })
     }
 }

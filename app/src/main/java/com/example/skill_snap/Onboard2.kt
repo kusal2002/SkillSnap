@@ -24,5 +24,7 @@ class Onboard2 : AppCompatActivity() {
             val intent = Intent(this,Onboard3::class.java)
             startActivity(intent)
         }
+
+
     }
 }

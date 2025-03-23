@@ -12,7 +12,7 @@ import androidx.core.view.WindowInsetsCompat
 class LoadingScreen : AppCompatActivity() {
 
     companion object {
-        private const val SPLASH_SCREEN: Long = 5000  // Correct way to define a constant in Kotlin
+        private const val SPLASH_SCREEN: Long = 2500
     }
     override fun onCreate(savedInstanceState: Bundle?) {
 

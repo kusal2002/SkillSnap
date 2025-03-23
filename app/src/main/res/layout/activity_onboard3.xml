@@ -20,11 +20,13 @@
 
             <ImageView
                 android:id="@+id/imageView"
-                android:layout_width="match_parent"
+                android:layout_width="250dp"
                 android:layout_height="300dp"
+                android:src="@drawable/ob3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                tools:srcCompat="@drawable/learningbro"
-                android:src="@drawable/learningbro"/>
+                tools:srcCompat="@drawable/ob3" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
         <androidx.constraintlayout.widget.ConstraintLayout
@@ -45,7 +47,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:fontFamily="sans-serif-condensed-light"
+                android:fontFamily="sans-serif-condensed-medium"
                 android:text="@string/onboard1txt"
                 android:textAlignment="center"
                 android:textColor="@color/black"
@@ -61,10 +63,11 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:fontFamily="sans-serif-light"
-                android:text="@string/onboard1sm"
+                android:text="@string/onboard3txt"
                 android:textAlignment="center"
                 android:textSize="20dp"
                 android:textStyle="bold"
+                android:textColor="@color/black"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView" />
