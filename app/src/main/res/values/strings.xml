@@ -9,4 +9,14 @@
     <string name="onboard1txt">Master Skills,One\nSnap at a Time</string>
     <string name="onboard1sm">Unlock new abilites with short,\nfun lessons designed for\nyour busy life.</string>
     <string name="onboard3txt">Track every step, earn rewards,\n and become the master\nyou’re meant to be.</string>
+    <string name="signup_bottom_txt">By Continuing you are agree to\nTerm’s and condition and Privacy</string>
+    <string name="already_have_an_account">Already Have an Account? <b>\<font color="#087E8B">Sign in</font></b></string>
+    <string name="dont_have_an_account">Don\'t Have an Account? <b>\<font color="#087E8B">Sign Up</font></b></string>
+    <string name="league_amaount"><font color="#FFDA4B">GOLD</font> \nLeague</string>
+    <string name="_25_lessons">25\nLessons</string>
+    <string name="_straktxt">4 \n Streak</string>
+    <string name="python_basics">Python Basics</string>
+    <string name="html_basics">HTML Basics</string>
+    <string name="frontend_basics">Frontend Basics</string>
+
 </resources>

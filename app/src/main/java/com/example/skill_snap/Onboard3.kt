@@ -20,7 +20,7 @@ class Onboard3 : AppCompatActivity() {
         }
         val next2 = findViewById<Button>(R.id.getstarted)
         next2.setOnClickListener{
-            val intent2 = Intent (this,MainActivity::class.java)
+            val intent2 = Intent (this, Signup_Activity::class.java)
             startActivity(intent2)
         }
     }
